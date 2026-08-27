@@ -1,0 +1,10 @@
+rasterio
+geopandas
+shapely
+folium
+rio-cogeo
+localtileserver
+numpy
+scipy
+requests
+Pillow
