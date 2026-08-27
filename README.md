@@ -7,7 +7,7 @@
 
 ## Deskripsi Proyek
 
-Repositori ini memuat notebook untuk **deteksi dan penghitungan pohon sawit secara otomatis** dari citra *orthomosaic* hasil pemotretan drone, menggunakan model deteksi objek dari **Roboflow** (*Palm Oil Detection and Counting*, oleh Prasadnr, `model_id: palm-oil-detection-and-counting/5`).
+Repositori ini memuat notebook untuk **deteksi dan penghitungan pohon sawit secara otomatis** dari citra *orthomosaic* hasil pemotretan drone, menggunakan model deteksi objek dari **Roboflow** (*Palm Oil Detection and Counting*, oleh Prasadnr, `model_id: palm-oil-detection-and-counting/5` [https://universe.roboflow.com/prasadnr/palm-oil-detection-and-counting]).
 
 Notebook ini merupakan **versi Google Colab** dari alur kerja aslinya yang berbasis **ArcGIS Pro/`arcpy`**. Karena `arcpy` bersifat proprietary dan hanya tersedia pada lingkungan ArcGIS Pro, seluruh fungsi baca-raster diganti menggunakan **rasterio** (open source, berbasis GDAL yang sama), sementara output diganti dari File Geodatabase (`.gdb`) menjadi **GeoPackage (`.gpkg`)** - satu file yang dapat langsung dibuka di ArcGIS Pro maupun QGIS tanpa konversi tambahan.
 
